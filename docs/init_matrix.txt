@@ -1,0 +1,5 @@
+truncate table dysfonctionnements  RESTART IDENTITY;
+truncate table detailsevenements RESTART IDENTITY;
+truncate table evenements RESTART IDENTITY;
+truncate table campagnes RESTART IDENTITY;
+truncate table segments RESTART IDENTITY;

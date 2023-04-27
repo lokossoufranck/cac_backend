@@ -1,0 +1,44 @@
+php artisan make:migration create_pays_table
+php artisan make:migration create_sites_table
+php artisan make:migration create_profiles_table
+php artisan make:migration create_user_profile_table
+php artisan make:migration create_modules_table
+php artisan make:migration create_menus_table
+php artisan make:migration create_sousmenus_table
+php artisan make:migration create_controllers_table
+php artisan make:migration create_fonctionnalites_table
+php artisan make:migration create_droits_table
+php artisan make:migration create_logs_table
+php artisan make:migration create_formations_table
+
+php artisan make:migration create_campagnes_table
+php artisan make:migration create_segments_table
+
+php artisan make:migration create_porte_table
+php artisan make:migration create_dysfonctionnement_table
+php artisan make:migration create_evenements_table
+php artisan make:migration create_detailsevenements_table
+
+php artisan make:migration create_modulef_whatslearn_table
+
+-- GENERATION OF MODELS --
+php artisan make:model  Module/Pays
+php artisan make:model  Module/Site
+php artisan make:model  Module/Profile
+php artisan make:model  Module/User_Profile
+php artisan make:model  Module/Module
+php artisan make:model  Module/Menu
+php artisan make:model  Module/Sousmenu
+php artisan make:model  Module/Controller
+php artisan make:model  Module/Fonctionnalite
+php artisan make:model  Module/logs
+php artisan make:model  Formation/Formation_Modulef
+php artisan make:model  Formation/Modulef_Whatslearn
+
+
+php artisan make:model  Module/Campagne
+php artisan make:model  Module/Segment
+
+php artisan make:model  Evenement/Dysfonctionnement
+php artisan make:model  Evenement/Evenement
+php artisan make:model  Evenement/Detailsevenement

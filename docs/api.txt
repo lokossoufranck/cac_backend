@@ -1,0 +1,18 @@
+Procédure pour se connecter en utilisant un API:
+Methode :POST
+url:http://localhost:8000/oauth/token
+-form-data:
+{grant_type:"password"
+client_id:2
+client_secret:n75g2rd5pCm1MDjjjLgw25m7vdrW9ELApGJXXUGv
+username:lokossoufranck@gmail.com
+password:11111111
+scope:
+}
+
+}]
+
+
+
+
+https://www.youtube.com/watch?v=H3zybw5joyQ

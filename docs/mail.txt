@@ -1,0 +1,13 @@
+Utiliser gmail comme serveur de mail
+1. Dans le menu sécurité de compte s'assurer que l'authentification à double étape est actif
+2.
+Adresse du serveur SMTP de Gmail : smtp.gmail.com
+Nom SMTP Gmail : Votre nom complet
+Identifiant SMTP Gmail : votre adresse Gmail complète (par exemple vous@gmail.com)
+Mot de passe SMTP Gmail : le mot de passe que vous utilisez pour vous connecter à Gmail
+Port SMTP Gmail (TLS) : 587
+Port SMTP Gmail (SSL) : 465
+
+3. Utliser les commande suivante pour que vos configurations soient prise en compte
+php artisan config:cache
+php artisan config:clear
